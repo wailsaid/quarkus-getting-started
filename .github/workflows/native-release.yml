@@ -3,7 +3,7 @@ name: Build and Release Native Image
 on:
   push:
     tags:
-      - 'v0.0.1' # triggers on version tags like v1.0.0
+      - 'v1.0.1' # triggers on version tags like v1.0.0
 
 jobs:
   build:
