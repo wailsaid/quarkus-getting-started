@@ -19,10 +19,10 @@ jobs:
         distribution: 'temurin'
         java-version: '21'
 
-    - name: Set up GraalVM
+    - name: Set up GraalVM for Java 21
       uses: graalvm/setup-graalvm@v1
       with:
-        version: '23.1.0'
+        version: '21.0.2'
         java-version: '21'
         components: 'native-image'
 
